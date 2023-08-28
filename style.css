@@ -17,6 +17,7 @@ body {
 /* slider section */
 .frist-section {
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 170px;
 }
 
 .slider {
@@ -66,9 +67,8 @@ body {
 
 /* Featured flowers section */
 
-.featured-flower{
-    padding: 170px 0 125px 0;
-}
+.featured-flower {}
+
 .title {
     color: #272727;
     text-align: center;
@@ -83,4 +83,55 @@ body {
     font-weight: 400;
     line-height: 30px;
     padding: 24px 0 48px 0;
+}
+
+.flower-boder {
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+}
+
+.common-flower {
+    width: 364px;
+    height: 438px;
+    flex-shrink: 0;
+}
+
+.common-flower p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 30px;
+}
+
+.common-flower img {
+    bottom: 0;
+}
+
+.fast img {
+    width: 250px;
+    height: 310px;
+    padding: 95px 66px 0px 66px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+
+
+.second img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 105px 40px 43px 40px;
+    width: 300px;
+    height: 260px;
+}
+
+.third img {
+    width: 254px;
+    height: 351px;
+    padding: 57px 65px 0px 65px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
 }
