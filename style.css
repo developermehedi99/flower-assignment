@@ -147,47 +147,108 @@ body {
     margin-top: 122px;
     margin-bottom: 122px;
 }
-.imogi h4{
+
+.imogi h4 {
     color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-size: 24px;
-font-weight: 600;
-line-height: 35px;
-padding-top: 22px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 22px;
 }
 
 /* hot-deal section */
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 126px;
 }
-.deal-text h2{
+
+.deal-text h2 {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
-text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
 }
+
 span.red {
     color: #E55473;
     font-size: 40px;
     font-weight: 800;
 }
-.deal-text p{
+
+.deal-text p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-text-align: center;
-margin: 23px 0 30px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 23px 0 30px 0;
 }
-.btn-center{
+
+.btn-center {
     margin: 0 auto;
     display: block;
 }
 
-.deal-img{
+.deal-img {
     width: 318px;
-height: 420px;
+    height: 420px;
+}
+
+/* instagram image section */
+.instagram{
+    margin-bottom: 126px;
+}
+.flower-image {
+    display: flex;
+    justify-content: space-around;
+    gap: 23px;
+}
+
+/* subscribe-section */
+
+.subscribe-section {
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 120px;
+}
+
+.subscribe-section h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 120px;
+}
+
+.subscribe-section p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    line-height: 30px;
+    padding-bottom: 45px;
+}
+.input-field{
+    text-align: center;
+}
+.input-field input {
+    color: rgba(39, 39, 39, 0.60);
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 17px;
+    border: none;
+    padding-bottom: 120px;
 }
