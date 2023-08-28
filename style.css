@@ -46,7 +46,7 @@ body {
     padding: 30px 0;
 }
 
-.slider-text .primary-btn {
+.primary-btn {
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
@@ -134,4 +134,60 @@ body {
     padding: 57px 65px 0px 65px;
     background: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
+}
+
+/* imogi section */
+.imogi-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 82px 0;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 122px;
+    margin-bottom: 122px;
+}
+.imogi h4{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+padding-top: 22px;
+}
+
+/* hot-deal section */
+.hot-deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deal-text h2{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+text-align: center;
+}
+span.red {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-text p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin: 23px 0 30px 0;
+}
+.btn-center{
+    margin: 0 auto;
+    display: block;
+}
+
+.deal-img{
+    width: 318px;
+height: 420px;
 }
