@@ -10,8 +10,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    margin: 0 233px;
 }
 
 /* slider section */
@@ -33,7 +34,7 @@ body {
 
 .slider-text h1 {
     color: #272727;
-    font-size: 67px;
+    font-size: 72px;
     font-style: normal;
     font-weight: 800;
 }
@@ -66,8 +67,6 @@ body {
 }
 
 /* Featured flowers section */
-
-.featured-flower {}
 
 .title {
     color: #272727;
@@ -201,13 +200,18 @@ span.red {
 }
 
 /* instagram image section */
-.instagram{
+.instagram {
     margin-bottom: 126px;
 }
+
 .flower-image {
     display: flex;
     justify-content: space-around;
-    gap: 23px;
+    gap: 22px;
+}
+.flo-img img{
+    width: 315px;
+    height: 360px;
 }
 
 /* subscribe-section */
@@ -226,7 +230,7 @@ span.red {
     font-size: 40px;
     font-weight: 800;
     padding-top: 120px;
-    
+
 }
 
 .subscribe-section p {
@@ -238,9 +242,11 @@ span.red {
     line-height: 30px;
     padding-bottom: 45px;
 }
-.input-field{
+
+.input-field {
     text-align: center;
 }
+
 .input-field input {
     color: rgba(39, 39, 39, 0.60);
     padding-left: 20px;
@@ -252,37 +258,60 @@ span.red {
     background: #FFF;
     margin-right: 17px;
     border: none;
-    
+
+}
+
+/* testmonial section */
+.testmonial-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+    margin-top: 126px;
+    text-align: center;
+    background-color: #f3a683;
+    padding: 0 120px;
+    border-radius: 10px;
+    padding-top: 35px;
+}
+
+.testmonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 /* footer section */
-.footer{
+.footer {
     background: #111010;
     text-align: center;
     padding: 126px 0;
     margin-top: 126px;
 }
-.footer h2{
+
+.footer h2 {
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
-.footer span{
+
+.footer span {
     color: #FFF;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
-.footer h4{
+
+.footer h4 {
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding: 23px 0 30px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 23px 0 30px 0;
 }
-.footer p{
+
+.footer p {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
